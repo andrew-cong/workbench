@@ -4,6 +4,7 @@ npm install ts-node @types/node --save-dev
 
 npx tsc --init
 cp ~/code/workbench/config/tsconfig.json .
+cp ~/code/workbench/.gitignore .
 
 mkdir src
 touch src/index.ts
